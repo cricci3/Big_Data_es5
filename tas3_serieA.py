@@ -43,11 +43,6 @@ for team in teams:
     player_data = driver.find_elements(By.XPATH, '//ul[@class="teamcompo__list"]/li/span')
 
     for player in player_data:
-
-
-
-
-    for player in player_data:
         altezza_giocatore = ''
         peso_giocatore = ''
         nome = ''
